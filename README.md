@@ -24,6 +24,11 @@ import crowbar
 # Examples
 See `examples` for examples on how to use Crowbar
 
+# Source
+Sources I used for developing this wrapper
+- [Let's reverse-engineer Omegle. PROPERLY!](https://gist.github.com/nucular/e19264af8d7fc8a26ece) - explanation of how the API actually works
+- [Omegle Traffic Bot](https://github.com/dropout1337/Omegle-Traffic-Bot ) - needed something to compare my project to
+
 # License
 ```
 This project is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, 
