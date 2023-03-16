@@ -235,8 +235,8 @@ class OmegleClient:
         if ret.status_code != 200:
             raise BadApiResponse(f"Omegle returned bad response code: {ret.status_code}")
         
-        self.connected = ret.text == "win"
-        return self.connected
+        self.isconnected = not ret.text == "win"
+        return self.isconnected
     
     def typing(self) -> bool:
         """
